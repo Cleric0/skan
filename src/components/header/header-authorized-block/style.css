@@ -1,0 +1,20 @@
+.header-authorized-block {
+  display: flex;
+  gap: 40px;
+}
+
+.header-authorized-block-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 175px;
+  height: 63px;
+  background: #D9D9D9;
+  font-size: 12px;
+}
+
+.header-authorized-block-logout-btn {
+  cursor: pointer;
+}

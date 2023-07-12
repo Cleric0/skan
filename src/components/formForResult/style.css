@@ -1,0 +1,246 @@
+
+
+.search-input-block {
+    margin: 29px 55px 75px 44px;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+
+.select-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 66px;
+    right: 45%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 11px;
+    background-image: url(rectangle.png);
+    pointer-events: none;
+}
+
+.search-input-block-input-select {
+    width: 242px;
+    height: 43px;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;    
+    margin-bottom: 30px;
+    padding: 13px 22px;
+    display: block;
+    margin-top: 20px;
+}
+
+
+.input-mode {
+    font-size: 14px;
+    letter-spacing: 0.42px;
+}
+
+.search-input-block-text {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.search-input-block-input {
+    width: 242px;
+    height: 43px;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;    
+    margin-bottom: 30px;
+    color: #949494;
+    opacity: 0.4;
+    text-align: center;
+    padding: 13px 22px;
+}
+
+.search-diapason-block {
+    padding-top: 9px;
+}
+
+.search-diapason-input {
+    width: 176px;
+    height: 43px;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    color: #949494;
+    padding-left: 44px;
+}
+
+.search-input-block-date{
+    margin-right: 20px;
+    width: 173px;
+    height: 43px;
+    display: inline-block;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;   
+    color: #949494;
+    opacity: 0.4;
+    text-align: center;
+    padding: 13px 22px;
+    display: inline-block;
+}
+
+.options-block-on {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 133px;
+    letter-spacing: 0.54px;
+}
+
+.options-block-on-block {
+    margin-top: 40px;
+    margin-right: 39px;
+}
+
+
+@media (max-width: 1200px) {
+    .options-block-on {
+        display: none;
+    }
+    .options-block-on-block {
+        margin: 40px 0;
+    }
+    .search-input-block {
+        margin: 29px 85px 0px;
+    }
+    .search-input-block-input {
+        width: 335px;        
+    }
+    .search-diapason-input {
+        width: 335px;
+    }
+    .date-start-input {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.option {
+    width: 20px;
+    height: 20px;
+    opacity: 0.4;
+    border: 1px solid #000000;
+    margin-right: 17px;
+}
+
+.option_checkbox {
+    margin-bottom: 11px;
+}
+
+.get_search {
+    padding: 16px 117px;
+    background: #5970FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 90px;
+}
+
+@media (max-width: 1200px) {
+    .get_search {
+        padding: 18px 136px;
+        margin-top: 40px;
+    }
+    .checkboxes-block {
+        display: none;
+    }
+}
+
+.get_search-worn {
+    font-size: 14px;
+    line-height: 17px;
+    color: #949494;
+}
+
+@media (max-width: 600px) {
+    .options-block-on-block {
+        margin: 40px 0;
+    }
+    .get_search {
+        padding: 18px 136px;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+}
+
+.diapason-input {
+    margin-right: -15px;
+}
+
+::-webkit-calendar-picker-indicator {
+    color: transparent;
+    opacity: 1;
+    background: url(rectangle.png) no-repeat center;
+    background-size: contain;
+}
+
+.errorInput {
+    color: red;
+    border-color: red;
+}
+
+.errorInputQ {
+    color: red;
+    border-color: red;
+}
+
+.errorDateStart {
+    color: red;
+    border-color: red;    
+}
+
+.errorDateEnd {
+    color: red;
+    border-color: red;    
+}
+
+.red {
+    color: red;
+    margin-top: -30px;
+    margin-bottom: 11px;
+}
+
+.redDate {
+    color: red;
+    margin-top: 10px; 
+    margin-left: 80px;   
+}
+
+.get_searchError {
+    padding: 16px 117px;
+    background: #5970FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    cursor: auto;
+}
+
+/* .box {
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+}
+
+input[type=checkbox]:checked ~ .box {
+    background-color: blueviolet;
+} */

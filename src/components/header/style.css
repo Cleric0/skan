@@ -1,0 +1,60 @@
+
+.header-nav {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 93px;    
+    margin: 0 60px;
+}
+
+.header-nav-logo {
+    background-image: url(../../assets/images/logo_header.svg);
+    width: 141px;
+    height: 93px;
+}
+
+.header-nav-list {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    width: 237px;    
+    cursor: pointer;
+}
+
+.header-nav-log-in-pers {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    width: 241px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.header-nav-registration {
+    color: #000000;
+    opacity: 0.4;
+    border-right: 2px solid #7CE3E1;
+    padding: 5px 20px 5px 0;
+}
+
+.header-nav-login {
+    font-weight: 500;
+    padding: 4px 10px 5px 12px;
+    background: #7CE3E1;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .header-nav-log-in-pers {
+        display: none;
+    }
+    .header-nav-list {
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+.first-conteiner-button {
+    width: 335px;
+    height: 59px;
+    border-radius: 5px;
+    background: #5970FF;
+    color: #FFF;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: 0.22px;
+    text-align: center;
+    margin: 32px 0 29px;
+    cursor: pointer;
+}

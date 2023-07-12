@@ -1,0 +1,220 @@
+
+
+/* .first {
+
+} */
+
+/*  */
+
+@media (max-width: 1400px) {
+    .tariffes-differends_block {
+        flex-direction: column;
+    }
+    .tariffes-differends {
+        margin: 0 auto;
+        margin-bottom: 43px;
+    }
+    .tariffes-differends:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.tariffes-differends {
+    border-radius: 10px;
+}
+
+.tariffes-differends_three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 6px 6px 0px 0px;
+    height: 132px;
+
+}
+
+.one_head {
+    background: #FFB64F;
+}
+
+.tariffes-differends_three-text {
+    padding: 30px 0 34px 30px;    
+}
+
+.tariff_icon-one {
+    margin: 15px 4px 0 0;
+}
+
+.tariff_icon-two {
+    padding: 0 20px;
+}
+
+.tariff_icon-three {
+    margin: 23px 13px 0 0;
+}
+
+.two_head {
+    background: #7CE3E1;
+}
+
+.three_head {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.tariffes-differends_one_conditions {
+    margin: 5px 10px 59px 30px;
+}
+
+.tariffes-differends_one_conditions-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 3px 13px 4px;
+    background: #3BA5E0;
+    border-radius: 10px;
+    margin-left: 237px;
+    color: #FFFFFF;
+}
+
+.tariffes-current-price {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    margin-right: 19px;
+}
+
+.tariffes-last-price {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.tariffes-divide-price {
+    margin-top: 13px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.title-h4 {
+    font-size: 20px;
+}
+
+.tariffes-differends_incluses_title {
+    margin: 0 0 10px 30px;
+}
+
+.tariffes-differends_incluses {
+    margin-left: 58px;
+}
+
+.tariffes_incluse_puncts::before {
+    content: "";
+    position: absolute;    
+    background: url('../../../assets/images/icons8-галочка-96\ 1.svg');
+    width: 20px;
+    height: 20px;
+    margin-left: -28px;
+}
+
+.tariffes_incluse_puncts {
+    margin-bottom: 5px;
+    font-size: 18px;
+} 
+
+.tariffes-differends_one_button {
+    background: #D2D2D2;
+    border-radius: 5px;
+    color: #000000;
+    padding: 18px 40px 17px 45px;
+    margin: 55px 30px 24px;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-family: 'Inter';
+}
+.tariffes-differends_two_conditions {
+    margin: 33px 14px 59px 30px;
+}
+
+.tariffes-differends_three_conditions {
+    margin: 48px 30px 91px;
+}
+
+
+.tariffes-differends_button {
+    padding: 18px 120px 17px 123px;
+    background: #5970FF;
+    border-radius: 5px;
+    margin: 55px 30px 24px;
+}
+
+@media (max-width: 840px) {
+    .tariffes-differends{
+        max-width: 335px;
+        max-height: 512px;
+    }
+    .tariffes-differends_three-text-for {
+        margin-right: -50px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .title-h4, .tariffes-differends_one_button{
+        font-size: 18px;
+    }
+    .tariffes_incluse_puncts {
+        font-size: 16px;        
+    }
+    .tariffes-differends_one_conditions, .tariffes-differends_two_conditions{
+        margin: 20px 36px 36px 24px;
+    }
+    .tariffes-differends_three_conditions{
+        margin: 33px 81px 37px 24px;
+    }
+    .tariffes-differends_one_conditions-p{
+        display: none;
+    }
+    .tariffes-differends_one_button{
+        margin: 39px 24px 31px;
+        padding: 18px 19px 19px 24px;
+        
+    }
+    .third-section_tariff {
+        margin: 0;
+    }
+    .tariff_icon-one {
+        max-width: 59px;
+        min-height: 53px;
+    }
+    .tariffes-head_title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    .tariffes-head_title-tariff-bisiness {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 22px;
+    }
+
+    .tariff_icon-two {
+        max-width: 71px;
+        min-height: 75px;
+        padding: 0;
+        margin: 15px 12px 14px 4px;
+    }
+    .tariff_icon-three {
+        max-width: 73px;
+        min-height: 61px;
+        padding: 0;
+        margin: 15px 7px 0 0;
+    }
+    .tariffes-differends_button{
+        width: 286px;
+        padding: 19px 91px 18px 94px;
+        margin: 39px 24px 30px;
+    }
+}

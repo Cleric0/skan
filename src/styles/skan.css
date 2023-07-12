@@ -1,0 +1,230 @@
+@import './reset.css';
+
+@font-face {
+    src: url(../assets/fonts/ferry_black.otf); 
+    font-family: "Ferry";
+}
+
+@font-face {
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);    
+    font-family: 'Intel';
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 60px;
+    font-family: 'Intel';
+    background-color: #FFFFFF;
+    color: #000000;
+    letter-spacing: 0.01em;    
+}
+.title-h2 {
+    font-family: 'Ferry';
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+@media (max-width: 600px) {
+    .container {
+    margin: 0 14px;
+}
+}
+
+
+/* MAIN */
+
+.first_section-conteiner {
+    margin-top: 63px;
+    margin: 0 60px;
+}
+
+.first-section_two-conteiners {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media (max-width: 1400px) {
+    .first-section_two-conteiners{
+        flex-wrap: wrap;
+    }
+}
+
+.first-section_first-conteiner {
+    margin-top: 69px;
+    width: 743px;
+    z-index: 1;
+    margin-right: -48px;
+}
+
+.first-section_first-conteiner-title {
+    font-family: 'Ferry';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    width: 743px;
+    height: 288px;
+    margin-bottom: 20px;
+}
+
+.first-section_first-conteiner-offer {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 534px;
+    margin-bottom: 70px;
+}
+
+
+.first-section_second-conteiner {
+    margin-top: 51px;
+}
+
+@media (max-width: 1400px) {
+    .first-section_first-conteiner-offer{
+        margin-bottom: 0;
+        width: auto;
+        max-width: 560px;
+    }
+    .first-section_second-conteiner {
+        margin: 0 auto 39px;
+    }
+    .first-section_first-conteiner {
+        margin: 69px auto;
+        width: auto;
+    }
+}
+
+@media (max-width: 840px) {
+    .first-section_first-conteiner {
+        margin: 19px auto 32px;
+    }
+    .first-section_second-conteiner {
+        margin: 0 auto 55px;
+    }
+    .first-section_first-conteiner-title{
+        width: auto;
+        height: auto;
+        max-width: 361px;
+        font-size: 28px;
+        line-height: 34px;
+        margin: 20px auto 19px auto;
+    }
+
+    .first-section_first-conteiner-offer{
+        width: auto;
+        max-width: 361px;
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+} 
+
+.first-section_second-conteiner-img { 
+    width: 629px;
+    height: 593px;
+}
+
+@media (max-width: 840px) {
+    .first-section_second-conteiner-img{
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        background-size: cover;
+    }
+}
+.second-section_advantages {
+    margin: 0 60px;
+}
+
+.second-section_advantages-title {
+    margin-bottom: 40px;
+}
+
+.second-section_slider {
+    margin: 0 31px 70px 31px;
+}
+
+/* delite maybe */
+@media (max-width: 1400px) {
+    .slider-block-third, .slider-block-second {
+        display: none;
+    }
+}
+
+.second-section_img {
+    width: 1307px;
+    height: 576px;
+    margin-left: -9px;
+    background-image: url(../assets/images//main-section-two.png);
+    margin-bottom: 107px;
+    margin-top: 40px;
+}
+
+@media (max-width: 1400px) {
+    .second-section_img {
+        width: 578px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 840px) {
+    .second-section_img {
+        background-image: none;
+        margin: 0 auto;
+        max-width: 361px;
+        max-height: 391px;
+    }
+    .second-section_advantages-title {
+        margin-bottom: 32px;
+    }
+
+}
+
+@media (min-width: 840px) {
+    .img_for_mobile {
+        display: none;
+    }
+}
+
+/* .title-h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 10px;
+} */
+
+/* section three */
+
+.tariffes-head_title-tariff-bisiness {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.third-section_tariff {
+    margin: 0 60px 118px 60px;
+}
+
+.section_tariff-title {
+    margin-bottom: 70px;
+}
+
+.tariffes-differends_one_button {
+    min-width: 330px;
+    text-align: center;
+}
+
+.tariffes-differends_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pointer {
+    cursor: pointer;
+}
